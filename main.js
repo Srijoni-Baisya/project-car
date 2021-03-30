@@ -81,10 +81,18 @@ function my_keydown(e){
     if(car1_x>680){
         console.log("Car 1 Won");
         document.getElementById("game_status").innerHTML="Car 1 Won!";
+        car1_x=10;
+        car1_y=10;
+        car2_x=10;
+        car2_y=100;
     }
     if (car2_x>680){
         console.log("Car 2 Won");
         document.getElementById("game_status").innerHTML="Car 2 Won!";
+        car1_x=10;
+        car1_y=10;
+        car2_x=10;
+        car2_y=100;
     }
 }
 
